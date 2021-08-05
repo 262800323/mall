@@ -31,6 +31,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         System.out.println("AAA");
         System.out.println("Hello");
+        System.out.println("CCC");
+        System.out.println("CCC");
+        System.out.println("CCC");
         http.authorizeRequests()//配置权限
 //                .antMatchers("/").access("hasRole('TEST')")//该路径需要TEST角色
 //                .antMatchers("/brand/list").hasAuthority("TEST")//该路径需要TEST权限
