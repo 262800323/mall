@@ -29,6 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        System.out.println("AAA");
         System.out.println("Hello");
         System.out.println("CCC");
         http.authorizeRequests()//配置权限
